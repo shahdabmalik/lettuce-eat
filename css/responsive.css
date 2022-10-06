@@ -1,0 +1,390 @@
+/* --------------------------------Max-Width:2100px----------------- */
+@media (max-width: 3250px) {
+  html {
+    font-size: 200%;
+  }
+}
+/* --------------------------------Max-Width:2100px----------------- */
+@media (max-width: 2750px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+/* --------------------------------Max-Width:2100px----------------- */
+@media (max-width: 2100px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+/* --------------------------------Max-Width:1800px----------------- */
+@media (max-width: 1800px) {
+  html {
+    font-size: 100%;
+  }
+
+}
+/* --------------------------------Max-Width:1500px----------------- */
+@media (max-width: 1500px) {
+  html {
+    font-size: 90%;
+  }
+      /* -----------Testimonial Section---------- */
+      #testimonial{
+        height: 550px;
+      }
+  
+      .testimonial-container {
+        height: 450px;
+      }
+      .testimonial {
+        width: 100%;
+        height: 250px;
+      }
+      .user-img{
+        top: -50%;
+      }
+}
+
+
+/* -----------------------------------Max-Width == 1150px----------------------- */
+
+@media (max-width: 1150px) {
+  /* ------------------HTML--------- */
+  html{
+    font-size: 80%;
+  }
+  /* ---------Navbar---------- */
+  nav {
+    display: block;
+    padding: 0.7rem 2rem;
+    box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 0.2);
+    background-color: #e5e6e8;
+
+    overflow: hidden;
+  }
+  nav ul {
+    display: block;
+    height: 0;
+    transition: 300ms;
+  }
+  nav ul.height {
+    height: 280px;
+    padding: 1rem 0;
+  }
+  nav ul li {
+  }
+  nav ul li a {
+    padding: 1rem 0 1rem 1rem;
+    display: block;
+  }
+
+  nav.sticky .logo {
+    font-size: 2.5rem;
+  }
+  nav.sticky ul li a {
+    font-size: 1.5rem;
+  }
+  nav.sticky .contact-no {
+    font-size: 1.2rem;
+  }
+  .menu-btn {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2.5rem;
+  }
+  /* --------------Details-------- */
+  .detail {
+  }
+  /* -----------Hero Section-------- */
+  .hero-container {
+    height: 60vh;
+    padding: 0 15%;
+    align-items: flex-start;
+  }
+  .hero-buttons{
+    width: 100%;
+  }
+  .hero-buttons button {
+    margin: 3rem 1rem 0 0;
+  }
+  /* ------------About------------- */
+  #about {
+    padding: 5rem 8%;
+  }
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .about-img {
+    text-align: center;
+  }
+  .about-img img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .about-container-2 {
+    flex-direction: column;
+  }
+  /* ----------Special Mention-------- */
+  .special-content {
+    position: initial;
+  }
+  /* -----------Food Section--------- */
+  #food {
+    padding: 5rem 8%;
+  }
+  .food-heading {
+    text-align: start;
+  }
+  .food-para {
+    text-align: start;
+  }
+  .food-container {
+    gap: 1rem;
+  }
+  .card-title {
+    padding-left: 1rem;
+  }
+  .food-stars {
+    padding-left: 1rem;
+  }
+  .card-text {
+    padding-left: 1rem;
+  }
+  .card-price {
+    padding-left: 1rem;
+  }
+  .card-btn {
+    margin-left: 1rem;
+
+  }
+  /* -----------Testimonial Section---------- */
+  #testimonial {
+    padding: 3rem 8%;
+  }
+  .testimonial-container {
+    height: 500px;
+  }
+  .testimonial {
+    width: 100%;
+    height: 250px;
+  }
+  /* ----------FAQs------------- */
+  #faq {
+    padding: 5rem 8%;
+  }
+}
+
+/* -------------------------------------Max-Width 840px-------------------------------- */
+@media (max-width: 840px) {
+  html {
+    font-size: 75%;
+  }
+  /* --------Navbar-------- */
+  nav ul.height {
+    height: 270px;
+  }
+  /* ------------Hero Section---------- */
+  .hero-container {
+    padding: 0 10%;
+  }
+
+  /* ----Special Section-------- */
+  #special {
+    height: 250px;
+  }
+
+  /* -------Food Section-------- */
+  #food {
+    padding: 5rem 4%;
+  }
+  /* -----------Testimonial Section-------- */
+  #testimonial {
+    height: 500px;
+  }
+
+  .testimonial-container {
+    height: 330px;
+  }
+  .testimonial {
+    height: 230px;
+  }
+  .user-img {
+    width: 150px;
+    top: -35%;
+  }
+  /* -----NewsLetter---- */
+  #newsletter {
+    height: 250px;
+  }
+  .newsletter-para{
+    width: 70%;
+  }
+}
+
+/* ----------------------------------------Max-Width:640px------------------------------ */
+@media (max-width:640px){
+  /* --------Details-Section-------- */
+  #details{
+    padding: 1rem 4%;
+  }
+  /* ------------About-Section------- */
+  .about-container-2{
+    padding-top:3rem ;
+  }
+/* ------------Special Section-------- */
+.special-container{
+  padding: 0 4%;
+}
+/* -------------Food Section----------- */
+.food-container{
+flex-wrap: wrap;
+gap: 3rem;
+}
+/* ----------TEstimonial-Section------------ */
+#testimonial{
+  height:550px ;
+}
+.testimonial-container{
+  height: 350px;
+}
+.testimonial{
+  height: 250px;
+}
+/* ------------NewsLetter----- */
+.newsletter-container{
+  padding: 1rem 4%;
+}
+.newsletter-para{
+  width: 90%;
+}
+
+
+}
+/* -----------------------------------------Max-Width:440px---------------------------- */
+
+@media (max-width: 440px) {
+
+  [data-aos-delay]{
+    transition-delay: 0s !important ;
+  }
+
+  [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
+
+
+  html {
+    font-size: 65%;
+  }
+  .para {
+    font-size: 1.5rem;
+  }
+
+  /* ----------Navbar--------- */
+  nav ul.height {
+    height: 225px;
+  }
+  /* ---------Hero Section-------- */
+  #hero {
+    background-image: url("../images/bg/bg1-sm.jpg");
+  }
+  .hero-container {
+    padding: 0 8%;
+  }
+  .hero-para{
+    width: 100%;
+  }
+  .hero-buttons button {
+    width: 130px;
+  }
+
+  /* ------Details Section------- */
+  #details {
+  }
+  .detail {
+    font-size: 1.8rem;
+  }
+
+  /* --------About Section----------- */
+  #about {
+    padding: 5rem 4%;
+  }
+  .about-container-2 {
+    padding-top: 5rem;
+  }
+
+  /* ---------Special Section------ */
+  #special {
+    height: 220px;
+  }
+  .special-heading {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .special-content {
+    padding: 0 1rem;
+  }
+  /* --------Food Section------ */
+
+  .food-container {
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .card-btn{
+    font-size: 1.8rem;
+
+  }
+  /* -----------Testimonial Section-------- */
+  #testimonial {
+    height: 500px;
+  }
+  .testimonial-container {
+    height: 350px;
+  }
+
+  .testimonial {
+    height: 280px;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: none;
+  }
+  .user-img {
+    width: 120px;
+    top: -20%;
+  }
+  .user-text{
+    text-align: start;
+  }
+  .user-name{
+    text-align: start;
+  }
+  .testimonial-stars{
+    text-align: start;
+  }
+
+  /* ----------FAQS------------ */
+  #faq {
+    padding: 5rem 4%;
+  }
+  .qna.active .answer {
+    height: 130px;
+  }
+  /* ---------Footer------- */
+  #footer {
+    padding: 3rem 8%;
+  }
+  .footer-links ul {
+    gap: 2.2rem;
+  }
+  .footer-links ul li a {
+    font-size: 1.5rem;
+  }
+  .footer-icons i {
+    font-size: 2rem;
+  }
+}
