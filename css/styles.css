@@ -137,7 +137,7 @@ nav.sticky .contact-no {
 #hero {
   min-height: 100vh;
   width: 100%;
-  background-image: url("../images/bg/bg1.jpg");
+  background-image: url("../images/bg/bg1.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -266,7 +266,7 @@ nav.sticky .contact-no {
 
 /* ---------------Special Mention--------------- */
 #special {
-  background: url("../images/special-mention.jpg") no-repeat;
+  background: url("../images/special-mention.webp") no-repeat;
   background-size: cover;
   box-shadow: 0 -0.5rem 1rem rgb(0, 0, 0, 0.5);
   background-attachment: fixed;
@@ -496,7 +496,7 @@ nav.sticky .contact-no {
 
 /* ----------Newsletter---------- */
 #newsletter {
-  background: url("../images/newsletter.jpg") no-repeat;
+  background: url("../images/newsletter.webp") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
