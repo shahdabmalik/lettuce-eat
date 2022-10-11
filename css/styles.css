@@ -9,25 +9,31 @@
 
   color: #3d3c42;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Quicksand", sans-serif;
   background-color: #e5e6e8;
 }
-section{
+
+section {
   overflow: hidden;
 }
+
 a {
   text-decoration: none;
 }
+
 .heading {
   font-family: "Mochiy Pop One", sans-serif;
   color: #0a371a;
   font-size: 2.5rem;
   padding: 1rem 0;
 }
+
 .btn-light {
   font-size: 1.1rem;
   padding: 0.7rem 1rem;
@@ -38,11 +44,13 @@ a {
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.5);
   transition: 300ms;
 }
+
 .btn-light:hover {
   color: #e5e6e8;
   background-color: #c21010;
   cursor: pointer;
 }
+
 .btn-dark {
   font-size: 1.1rem;
   padding: 0.7rem 1rem;
@@ -53,11 +61,13 @@ a {
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.5);
   transition: 300ms;
 }
+
 .btn-dark:hover {
   color: #c21010;
   background-color: transparent;
   cursor: pointer;
 }
+
 .para {
   font-size: 1.3rem;
   line-height: 1.8rem;
@@ -76,60 +86,74 @@ nav {
   transition: 300ms;
   z-index: 3;
 }
+
 nav.sticky {
   background-color: #e5e6e8;
   padding: 0.7rem 6%;
   box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 0.2);
 }
+
 nav.sticky .logo {
   font-size: 2rem;
   transition: 300ms;
 }
+
 nav .logo {
   font-size: 2.5rem;
 }
+
 nav .logo:hover span {
   color: #c21010;
 }
+
 nav .logo span {
   font-family: "Mochiy Pop One", sans-serif;
   color: #116530;
 }
+
 nav ul {
   display: flex;
   gap: 2rem;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   font-size: 1.5rem;
   font-weight: 700;
   transition: 250ms;
   color: #116530;
 }
+
 nav.sticky ul li a {
   font-size: 1.3rem;
 }
+
 nav ul li a:hover {
   color: #c21010;
 }
+
 nav.sticky .contact-no {
   padding: 0.5rem 1rem;
   font-size: 1rem;
 }
+
 .contact-no:hover {
   background-color: transparent;
   color: #c21010;
   cursor: pointer;
 }
+
 .menu-btn {
   color: black;
   display: none;
   cursor: pointer;
 }
-.nav-link.active{
-  color:#c21010
+
+.nav-link.active {
+  color: #c21010
 }
 
 /* ------------Hero Section-------- */
@@ -141,6 +165,7 @@ nav.sticky .contact-no {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hero-container {
   height: 90vh;
   display: flex;
@@ -148,14 +173,17 @@ nav.sticky .contact-no {
   justify-content: center;
   padding: 0 25%;
 }
-.hero-heading{
+
+.hero-heading {
   text-align: center;
 }
-.hero-para{
+
+.hero-para {
   width: 90%;
   text-align: center;
 }
-.hero-buttons{
+
+.hero-buttons {
   text-align: center;
 }
 
@@ -164,52 +192,62 @@ nav.sticky .contact-no {
   margin-right: 1rem;
   margin-top: 3rem;
 }
+
 .cart,
 .phone {
   font-size: 1.6rem;
   padding-left: 0.5rem;
 }
+
 .cart::before {
   color: #e5e6e8;
   transition: 300ms;
 }
+
 .phone::before {
   color: #c21010;
   transition: 300ms;
 }
+
 .order-btn:hover .cart::before {
   color: #c21010;
 }
+
 .phone-btn:hover .phone::before {
   color: #e5e6e8;
 }
 
 /* ---------Details Section------------ */
 #details {
-  padding:1.5rem 6% ;
+  padding: 1.5rem 6%;
   background-color: #116530;
   box-shadow: 0 -0.5rem 1rem rgb(0, 0, 0, 0.5);
 }
+
 .details-container {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .detail {
   color: #e5e6e8;
   font-size: 2rem;
   text-align: center;
   font-weight: 600;
 }
+
 .detail-icon {
   font-size: 3rem;
   padding: 1rem 2rem 2rem 2rem;
   border-bottom: 2px solid #e5e6e8;
 }
+
 .detail-icon::before {
   color: #e5e6e8;
 }
+
 .detail span {
   color: #e5e6e8;
 }
@@ -219,24 +257,30 @@ nav.sticky .contact-no {
   min-height: 100vh;
   padding: 10rem 6% 5rem;
 }
+
 .about-container {
   display: flex;
   gap: 3rem;
 }
-.about-content{
+
+.about-content {
   flex-basis: 50%;
 }
-.about-img{
+
+.about-img {
   flex-basis: 50%;
 }
+
 .about-img img {
   border-radius: 0.6rem;
   box-shadow: 0 0 1rem;
   width: 100%;
 }
+
 .about-btn {
   margin-top: 3rem;
 }
+
 .about-container-2 {
   display: flex;
   gap: 3rem;
@@ -244,15 +288,19 @@ nav.sticky .contact-no {
   align-items: center;
   justify-content: center;
 }
+
 .about-para-2 {
   padding-bottom: 2rem;
 }
+
 .about-collage {
   flex-basis: 50%;
 }
+
 .about-collage img {
   width: 100%;
 }
+
 .about-content-2 {
   flex-basis: 50%;
 }
@@ -260,6 +308,7 @@ nav.sticky .contact-no {
 .tick {
   padding-right: 0.5rem;
 }
+
 .tick::before {
   color: #116530;
 }
@@ -271,6 +320,7 @@ nav.sticky .contact-no {
   box-shadow: 0 -0.5rem 1rem rgb(0, 0, 0, 0.5);
   background-attachment: fixed;
 }
+
 .special-container {
   background-color: rgb(0, 0, 0, 0.6);
   width: 100%;
@@ -280,16 +330,20 @@ nav.sticky .contact-no {
   justify-content: center;
   padding: 1.5rem 12%;
 }
+
 .special-heading {
   color: #e5e6e8;
 }
+
 .special-content {
   text-align: center;
 }
+
 .special-btn {
   margin-top: 2rem;
   background-color: #e5e6e8;
 }
+
 .special-para {
   color: #e5e6e8;
 }
@@ -299,22 +353,27 @@ nav.sticky .contact-no {
 #food {
   padding: 5rem 6%;
 }
+
 .food-heading {
   text-align: center;
 }
+
 .food-heading span {
   color: #116530;
 }
+
 .food-para {
   text-align: center;
   padding-top: 1rem;
 }
+
 .food-container {
   padding: 5rem 0;
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
+
 .card {
   background-color: #c8c9c9;
   width: 350px;
@@ -322,9 +381,11 @@ nav.sticky .contact-no {
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.5);
   overflow: hidden;
 }
+
 .card-img {
   overflow: hidden;
 }
+
 .card-img img {
   width: 100%;
   transition: 300ms;
@@ -333,20 +394,24 @@ nav.sticky .contact-no {
 .card:hover .card-img img {
   transform: scale(1.5);
 }
+
 .card-title {
   font-family: "Mochiy Pop One", sans-serif;
   font-size: 1.5rem;
   padding: 1rem 1rem 1rem 2rem;
   padding-bottom: 0.5rem;
 }
+
 .food-stars {
   padding-left: 2rem;
 }
+
 .card-text {
   font-size: 1.3rem;
   font-weight: 600;
   padding: 1rem 0 0.5rem 2rem;
 }
+
 .card-price {
   font-size: 1.7rem;
   font-weight: 600;
@@ -354,15 +419,18 @@ nav.sticky .contact-no {
   color: #116530;
   border-bottom: 2px solid #e5e6e8;
 }
+
 .card-price span {
   text-decoration: line-through;
   padding-left: 0.5rem;
 }
+
 .card-btn {
   margin: 1rem 0 1.5rem 2rem;
   color: #178740;
   border: 2px solid #178740;
 }
+
 .food-btn {
   display: block;
   width: 280px;
@@ -383,11 +451,13 @@ nav.sticky .contact-no {
   flex-direction: column;
   box-shadow: 0 -0.5rem 1rem rgb(0, 0, 0, 0.5);
 }
+
 .testimonial-heading {
   font-family: "Quicksand", sans-serif;
   color: #e5e6e8;
   font-size: 3rem;
 }
+
 .testimonial-container {
   width: 100%;
   height: 450px;
@@ -399,28 +469,33 @@ nav.sticky .contact-no {
 
 .testimonial {
   width: 80%;
-  height: 320px;
+  height: 300px;
   background-color: #c8c9c9;
   position: relative;
   padding: 1rem 3rem;
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.5);
   transition: 1000;
 }
+
 .hide {
   visibility: hidden;
 }
+
 .fade {
   animation: fade 600ms;
 }
+
 @keyframes fade {
   0% {
     opacity: 0;
     transform: rotateY(0deg);
   }
+
   50% {
     opacity: 0.5;
     transform: rotateY(90deg);
   }
+
   100% {
     opacity: 1;
     transform: rotateY(0deg);
@@ -435,17 +510,20 @@ nav.sticky .contact-no {
   border-radius: 50%;
   border: 2px solid #116530;
 }
+
 .user-text {
   position: relative;
   text-align: center;
   top: 7rem;
 }
+
 .testimonial-stars {
   position: relative;
   top: 8rem;
   display: block;
   text-align: center;
 }
+
 .user-name {
   position: relative;
   top: 9rem;
@@ -454,22 +532,27 @@ nav.sticky .contact-no {
   font-size: 1.5rem;
   color: #c21010;
 }
+
 /* -------------------FAQs----------- */
 #faq {
   padding: 5rem 6%;
 }
+
 .faq-heading {
   padding-bottom: 2rem;
 }
+
 .qna {
   cursor: pointer;
 }
+
 .question {
   margin: 1rem 0;
   font-size: 1.4rem;
   cursor: pointer;
   transition: all 500ms;
 }
+
 .question::after {
   content: "+";
   font-size: 1.5rem;
@@ -477,17 +560,20 @@ nav.sticky .contact-no {
   position: relative;
   left: 1rem;
 }
+
 .answer {
   padding-top: 1rem;
   font-size: 1.3rem;
-    height: 0;
+  height: 0;
   overflow: hidden;
   transition: all 300ms;
   color: #116530;
 }
+
 .qna.active .answer {
   height: 120px;
 }
+
 .qna.active .question::after {
   content: "-";
   color: #c21010;
@@ -500,6 +586,7 @@ nav.sticky .contact-no {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .newsletter-container {
   padding: 2rem 6%;
   display: flex;
@@ -510,18 +597,22 @@ nav.sticky .contact-no {
   width: 100%;
   height: 100%;
 }
+
 .newsletter-heading {
   color: #e5e6e8;
   text-align: center;
 }
+
 .newsletter-para {
   text-align: center;
   color: #e5e6e8;
   width: 55%;
 }
+
 .newsletter-content {
   padding: 2rem 0;
 }
+
 .email {
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -529,6 +620,7 @@ nav.sticky .contact-no {
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.5);
   margin-right: 1rem;
 }
+
 .newsletter-btn {
   background-color: #e5e6e8;
 }
@@ -539,34 +631,41 @@ nav.sticky .contact-no {
   padding: 3rem 6%;
   background-color: #000;
 }
+
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .footer-links ul {
   display: inline-flex;
   gap: 5rem;
 }
+
 .footer-container ul li {
   list-style: none;
 }
+
 .footer-container ul li a {
   /* color: #e5e6e8; */
   font-size: 1.8rem;
   transition: 300ms;
   font-weight: 600;
 }
+
 .footer-container ul li a:hover {
   color: #c21010;
 }
+
 .footer-icons i {
   font-size: 2.5rem;
   padding: 2rem 1.5rem;
   transition: 300ms;
   cursor: pointer;
 }
+
 .footer-icons i:hover::before {
   transition: 300ms;
   color: #e5e6e8;

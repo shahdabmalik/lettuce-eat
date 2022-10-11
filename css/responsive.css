@@ -7,29 +7,26 @@
 /* --------------------------------Max-Width:2100px----------------- */
 @media (max-width: 2750px) {
   html {
-    font-size: 150%;
+    font-size: 140%;
   }
 }
 
 /* --------------------------------Max-Width:2100px----------------- */
-@media (max-width: 2100px) {
+@media (max-width: 2400px) {
   html {
-    font-size: 125%;
+    font-size: 115%;
   }
 }
 
-/* --------------------------------Max-Width:1800px----------------- */
-@media (max-width: 1800px) {
-  html {
-    font-size: 100%;
-  }
-
-}
-/* --------------------------------Max-Width:1500px----------------- */
-@media (max-width: 1500px) {
+/* --------------------------------Max-Width:2000px----------------- */
+@media (max-width: 2000px) {
   html {
     font-size: 90%;
   }
+
+}
+/* ------------------------------Max-Width:1500px----------------- */
+@media (max-width: 1500px) {
       /* -----------Testimonial Section---------- */
       #testimonial{
         height: 550px;
@@ -73,8 +70,6 @@
     height: 280px;
     padding: 1rem 0;
   }
-  nav ul li {
-  }
   nav ul li a {
     padding: 1rem 0 1rem 1rem;
     display: block;
@@ -97,8 +92,7 @@
     font-size: 2.5rem;
   }
   /* --------------Details-------- */
-  .detail {
-  }
+
   /* -----------Hero Section-------- */
   .hero-container {
     height: 60vh;
@@ -304,8 +298,7 @@ gap: 3rem;
   }
 
   /* ------Details Section------- */
-  #details {
-  }
+
   .detail {
     font-size: 1.8rem;
   }
